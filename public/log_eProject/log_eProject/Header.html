@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head><title>Pizza</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="css/favicon-16x16.png">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+      <script>
+        $(document).ready(function(){
+          $('#btnLogin').click(function(){
+            let user = $('input[name="txtUser"]').val();
+            let pass = $('input[name="txtPass"]').val();
+            $('#mesUser').text('');
+            $('#mesPass').text('');
+            if(!isString(user)){
+              $('#mesUser').text('error');
+            }
+            if(!isPass(pass)){
+              $('#mesPass').text('error');
+            }
+          });
+          $('#btnSignup').click(function(){
+            let email = $('input[name="txtEmail"]').val();
+            let user2 = $('input[name="txtUser2"]').val();
+            let pass2 = $('input[name="txtPass2"]').val();
+            let rePass = $('input[name="txtRepass"]').val();
+            $('#mesUser2').text('');
+            $('#mesPass2').text('');
+            $('#mesEmail').text('');
+            $('#mesRepass').text('');
+            if(!isEmail(email)){
+              $('#mesEmail').text('Sai định dạng, Ex: orionazo9@gmail.com(.vn)');
+            }
+            if(!isString(user2)){
+              $('#mesUser2').text('Username không được chứa các kí tự');
+            }
+            if(!isPass(pass2)){
+              $('#mesPass2').text('Mật khẩu không được để trống và không được chứa các kí tự đặc biệt');
+            }
+            if(confirmPass(pass2,rePass)==false){
+              $('#mesRepass').text('Không khớp với mật khẩu trên');
+            }
+          });
+          function isEmail(_email){
+            var reg = /^[A-Za-z0-9\_]+\@[A-Za-z0-9]{2,5}\.[A-Za-z0-9]{2,5}(\.[A-Za-z0-9]{2,5})?$/;
+            return reg.test(_email);
+          }
+          function isString(_user){
+            var reg = /^[A-Za-z0-9\_ ]+$/;
+            return reg.test(_user);
+          }
+          function isPass(_pass){
+            var reg = /^[A-Za-z0-9\_ ]+$/;
+            return reg.test(_pass);
+          }
+          function confirmPass(_pass,_rePass){
+            var f = false;
+            if(_pass==_rePass){
+              f = true;
+            }
+            return f;
+          }
+        });
+      </script>
+</head>
+<body>
+
+<div class="container bigbox mw-100 h-100">
+
+<div class="mw-100 h-25" id='header' align='center'>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mx-auto bg-warning">
+    <a class="navbar-brand" href="javascript:void(0)">
+        <img src="css/logo.png" style="width: 80px">
+    </a>
+   <div class="collapse navbar-collapse" id="navb" align='center'>
+      <ul class="navbar-nav mr-auto">
+         <li class="nav-item">
+           <a class="nav-link" href="eProject.html" style="color: white" id="active" align='center'>HOME</a>
+        </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="javascript:void(0)" style="color: white" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="active">MENU</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="pizza.html">PIZZA</a>
+                <a class="dropdown-item" href="#">GARLIC BREADS</a>
+                <a class="dropdown-item" href="#">PIZZA SANDWICHES</a>
+                <a class="dropdown-item" href="#">DESSERTS</a>
+                <a class="dropdown-item" href="#">BEVERAGES</a>
+            </div>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)" id="active" style="color: white">MENU DOWNLOAD</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)" id="active" style="color: white">STORE LOCATION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)" id="active" style="color: white">LOCATIONS</a>
+        </li>
+         <li class="nav-item">
+            <a class="nav-link" href="feedback.html" id="active" style="color: white">FEEDBACK</a>
+        </li>
+         <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)" id="active" style="color: white">FRANCHISE INFO</a>
+        </li>
+
+      </ul>
+    </div>
+
+
+      <div>
+        <div id= "signin-signup">
+          <ul class="nav navbar-nav navbar-toggler-right">
+            <li>
+              <a href="#" data-toggle='modal' data-target='#login' style='color: white'>SIGN IN /</a>
+              <a href="#" data-toggle='modal' data-target="#signup" style='color: white'>SIGN UP</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+ <!--MODAL-LOGIN-->
+    <div class="modal" id='login'>
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Login Here</h4>
+            <button class="close" data-dismiss='modal'>&times;</button>
+          </div>
+          <div class="modal-body">
+            
+              <table class="w-75">
+                <tr>
+                  <td><span class="fas fa-user" style='color: grey'></span></td>
+                  <td><input type="text" placeholder="Username or E-mail"  name='txtUser' class="form-control"></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><span id='mesUser' class="mesError"></span></td>
+                </tr>
+                <tr>
+                  <td><div style='margin-top: 10px'><span class="fas fa-unlock-alt" style='color: grey'></span></div></td>
+                  <td><input type="password" placeholder="Password"  name='txtPass' class="form-control" style='margin-top: 10px'></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><span id='mesPass' class="mesError"></span></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>
+                    <input type="checkbox"> Remember me
+                    <div class="float-right">New User? <a href="#" data-toggle='modal' data-target='#signup' data-dismiss='modal'>Register here</a></div>
+                  </td>
+                </tr>
+              </table>
+              <button class="btn btn-success" style='margin-top: 10px' id='btnLogin'>LOGIN</button>
+            
+          </div>
+          <div class="modal-footer">
+            <button data-dismiss='modal' class="btn-danger">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!--MODAL-SIGNUP-->
+    <div class="modal" id='signup'>
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Create Account</h4>
+            <button class="close" data-dismiss='modal'>&times;</button>
+          </div>
+          <div class="modal-body">
+            <p style='color: grey'>Get started with your free account</p>
+              <table class="w-75">
+                <tr>
+                  <td>Username</td>
+                  <td><input type="text" placeholder="Username" class="form-control" name='txtUser2'></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><span id='mesUser2' class="mesError"></span></td>
+                </tr>
+                <tr>
+                  <td>Email</td>
+                  <td><input type="email" placeholder="Email" name='txtEmail' class="form-control" placeholder="Email" style='margin-top: 10px'></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><span id='mesEmail' class="mesError"></span></td>
+                </tr>
+                <tr>
+                  <td>Password</td>
+                  <td><input type="password" name='txtPass2' placeholder="Password" class="form-control" style='margin-top: 10px' placeholder="Password"></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><span id='mesPass2' class="mesError"></span></td>
+                </tr>
+                <tr>
+                  <td>Password (Confirm)</td>
+                  <td><input type="password" placeholder="Confirm Password" class="form-control" style='margin-top: 10px' name='txtRepass'></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><span id='mesRepass' class="mesError"></span></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><div class="float-right">Have an account? <a href="#" data-toggle='modal' data-target='#login' data-dismiss='modal'>Log in</a></div></td>
+                </tr>
+              </table>
+              <button class="btn btn-success" id='btnSignup'>REGISTRATION</button>
+          </div>
+          <div class="modal-footer">
+            <button data-dismiss='modal' class="btn-danger">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,204 @@
+*{
+	margin: 0px;
+	padding-top: 0px;
+	font-family: sans-serif;
+}
+.mesError{
+  color: red;
+}
+body{
+	background-image: url(nen2.jpg);
+	background-attachment:fixed;
+}
+
+.nav-item a: hover{
+	color: black ;
+}
+
+#navb ul li a {
+	padding: 0 10px 0 10px;
+	text-decoration: none;
+	display: block;
+}
+
+#active{
+	font-weight: bold;
+}
+
+#signin-signup {
+	font-weight: bold;
+	padding: 00px 10px 00px 10px; 
+	background-color: #fed400; 
+	line-height: 100px;
+	display: block;
+}
+
+.discount img {
+  width: 100%;
+  height: auto;
+}
+
+.discount .btn {
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #05354c;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+/*  width: 250px;*/
+}
+
+.discount .btn:hover {
+  background-color: #fed400;
+}
+
+.pizzamenu {
+  width: 100%;
+  height: auto;
+}
+
+.pizzamenu .btn {
+
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #05354c;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 150px;
+}
+
+.pizzamenu .btn:hover {
+  background-color: #fed400;
+}
+
+
+.voucher {
+  width: 100%;
+  height: auto;
+}
+
+.voucher .btn {
+
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #05354c;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 150px;
+}
+
+.voucher .btn:hover {
+  background-color: #fed400;
+}
+
+
+#idvoucher {
+  position: absolute;
+  top: 84%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  font-weight: italic;
+}
+
+.menu-header h3{
+	color: white;
+	margin: 0px 20px 0px 60px;
+}
+
+.menu-header {
+	color: white;
+	margin: 0px 20px 0px 60px;
+	/*border-bottom: 1px dotted white;*/
+}
+
+.header{
+  position: fixed;
+}
+
+.menu-header ul li a{
+	display: inline-block;
+
+}
+.menu-header ul{
+	color: white;
+	display: inline-block;
+	padding-bottom: 5px;
+	display: flex;
+	list-style-type: none;
+	margin: 0px 20px 0px 20px;
+	border-bottom: 1px dotted white;
+}
+.price-large{
+	display: inline-block;
+	margin-right: 150px;
+}
+
+#addcart {
+	margin-top: 20px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #05354c;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+#addcart:hover {
+  background-color: #fed400;
+}
+
+#startoder {
+  margin-top: 20px;
+  background-color: #05354c;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+/*  width: 300px;
+  height: 50px;
+  margin-right: 10%;*/
+}
+#startoder:hover {
+  background-color: #fed400;
+}
+
+
+#picpizza: hover{
+  background-color: #fed400;
+}
