@@ -17,7 +17,7 @@
                       <div class="col-md-5">
                         <div class="form-group">
                           <label class="bmd-label-floating">Company</label>
-                          <input type="text" class="form-control" value="Shale-Pizza">
+                          <input type="text" class="form-control" value="Pizza-Online">
                         </div>
                       </div>
                       <div class="col-md-3">

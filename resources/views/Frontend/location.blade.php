@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Shale-PIZZAzzz</title>
+	<title>Pizza-Online</title>
 	<meta charset="utf-8">
 	        <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -497,7 +497,7 @@ break;
             <div class="col-lg-6 left-footer">
               <div class='Module Module-285' style="display: flex;">
                 <ul class="copyright" >
-                    <li><a href="eProject.html">SHALE'S PIZZA</a></li>
+                    <li><a href="eProject.html">PIZZA-ONLINE</a></li>
                     <li><a href="#">PRIVACY POLICY</a></li>
                 </ul></div>
             </div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Shale-PIZZAzzz</title>
+	<title>Pizza-Online</title>
 	<meta charset="utf-8">
 	        <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -466,9 +466,9 @@
   <section class="gallery-block compact-gallery">
       <div class="container">
         <div class="heading">
-          <h2 style="color: white; text-align: center;font-weight: bold; font-size: 35px"><img src="css/logo.png" style="width: 120px"> Shale-PIZZAAsss</h2><br>
+          <h2 style="color: white; text-align: center;font-weight: bold; font-size: 35px"><img src="css/logo.png" style="width: 120px"> Pizza-Online</h2><br>
           <p align="center" style="color: white">
-            At Shale-PIZZAAsss , we strive to make and serve great food all of the time, provide a fun, friendly and comfortable environment for our guests, cultivate a great place to work for our employees, and actively engage with the communities within which we are located.   Hungry? Honor your appetite with food from our delicious artisan menu made from better-for-you ingredients that satisfies healthy appetites & lifestyles!
+            At Pizza-Online , we strive to make and serve great food all of the time, provide a fun, friendly and comfortable environment for our guests, cultivate a great place to work for our employees, and actively engage with the communities within which we are located.   Hungry? Honor your appetite with food from our delicious artisan menu made from better-for-you ingredients that satisfies healthy appetites & lifestyles!
           </p>
         </div>
 
@@ -654,7 +654,7 @@
             <div class="col-lg-6 left-footer">
               <div class='Module Module-285' style="display: flex;">
                 <ul class="copyright" >
-                    <li><a href="eProject.html">SHALE'S PIZZA</a></li>
+                    <li><a href="eProject.html">PIZZA-ONLINE</a></li>
                     <li><a href="#">PRIVACY POLICY</a></li>
                 </ul></div>
             </div>

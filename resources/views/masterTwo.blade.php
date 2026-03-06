@@ -320,7 +320,7 @@
 		<div class="sidebar-brand">
 			<img src="{{asset('style/logo.png')}}" alt="Logo">
 			<div>
-				<div class="brand-text">Shale-Pizza</div>
+				<div class="brand-text">Pizza-Online</div>
 				<div class="brand-sub">Admin Panel</div>
 			</div>
 		</div>

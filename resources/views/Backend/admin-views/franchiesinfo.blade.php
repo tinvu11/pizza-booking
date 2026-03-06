@@ -30,7 +30,7 @@
                     <tbody>
                         <tr>
                             <td class="cell-id">#1</td>
-                            <td class="cell-bold">Shale-Pizza Thai Ha</td>
+                            <td class="cell-bold">Pizza-Online Thai Ha</td>
                             <td class="cell-muted text-left">120 Thai Ha Dong Da HN</td>
                             <td class="cell-muted">0968987456</td>
                             <td class="cell-muted">shalethaiha@gmail.com</td>
@@ -43,7 +43,7 @@
                         </tr>
                         <tr>
                             <td class="cell-id">#2</td>
-                            <td class="cell-bold">Shale-Pizza Pho Hue</td>
+                            <td class="cell-bold">Pizza-Online Pho Hue</td>
                             <td class="cell-muted text-left">222 Pho Hue Ba Dinh</td>
                             <td class="cell-muted">0968345789</td>
                             <td class="cell-muted">shalephohue@gmail.com</td>

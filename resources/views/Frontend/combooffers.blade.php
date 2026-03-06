@@ -204,7 +204,7 @@
         <div class="col-lg-7 combo-body">
             <h4>Free Pizzas Monthly</h4>
             <ul class="combo-details">
-                <li>Join the Shale-PIZZAAsss Pizza Book It Program.</li>
+                <li>Join the Pizza-Online Pizza Book It Program.</li>
                 <li>Register on our site to receive monthly rewards.</li>
                 <li>Exclusive offer for online members.</li>
             </ul>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-      <title>Shale-PIZZAzzz</title>
+      <title>Pizza-Online</title>
       <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -365,9 +365,9 @@
             <div class="row">
                 <!-- Column 1: About Us -->
                 <div class="col-lg-4 col-md-6 mb-4 text-center text-md-left">
-                    <img src="css/logo.png" alt="Shale Pizza" style="max-height: 80px; margin-bottom: 20px;">
+                    <img src="css/logo.png" alt="Pizza-Online" style="max-height: 80px; margin-bottom: 20px;">
                     <p class="text-muted" style="font-size: 14px; line-height: 1.6;">
-                        Shale's Pizza is dedicated to providing the most authentic recipes built from the freshest ingredients. Experience a slice of perfection, delivered hot and fresh to your door.
+                        Pizza-Online is dedicated to providing the most authentic recipes built from the freshest ingredients. Experience a slice of perfection, delivered hot and fresh to your door.
                     </p>
                     <div class="social-icons mt-4">
                         <a href="#" class="btn btn-outline-light btn-floating m-1" role="button"><i class="fab fa-facebook-f"></i></a>
@@ -415,7 +415,7 @@
             <div class="row align-items-center">
                 <div class="col-md-7 col-lg-8">
                     <p class="text-center text-md-left text-muted mb-0" style="font-size: 14px;">
-                        © 2026 <strong>Shale's Pizza</strong>. All rights reserved.
+                        © 2026 <strong>Pizza-Online</strong>. All rights reserved.
                     </p>
                 </div>
                 <div class="col-md-5 col-lg-4 text-center text-md-right mt-3 mt-md-0">
