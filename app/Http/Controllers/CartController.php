@@ -210,7 +210,7 @@ class CartController extends Controller
         $cartTotalQuantity = Cart::getTotalQuantity();
         $totalPrice = Cart::getTotal();
         $getIDORDER = tbl_order::all()->sortDesc()->first();
-        $IDORDER = $getIDORDER['id']+1;
+        $IDORDER = $getIDORDER ? $getIDORDER['id']+1 : 1;
         return view("Frontend.checkout", compact('cartContent', 'cartTotalQuantity', 'totalPrice', 'IDORDER'));
     }
     public function contentCheckoutTwo(){
@@ -218,7 +218,7 @@ class CartController extends Controller
         $cartTotalQuantity = Cart::getTotalQuantity();
         $totalPrice = Cart::getTotal();
         $getIDORDER = tbl_order::all()->sortDesc()->first();
-        $IDORDER = $getIDORDER['id'];
+        $IDORDER = $getIDORDER ? $getIDORDER['id'] : 0;
         return view("Frontend.payment", compact('cartContent', 'cartTotalQuantity', 'totalPrice', 'IDORDER'));
     }
     public function checkPay(Request $request, $id){
@@ -255,7 +255,7 @@ class CartController extends Controller
             if($checkout>$totalPrice){
                 $getIdOrderTwo = tbl_order::all()->sortDesc()->first();
                 $IdOrTwo = $getIdOrderTwo['id'];
-                DB::table('tbl_order')->where('id', $IdOrTwo)->update(['status'=>'vip']);
+                DB::table('tbl_order')->where('id', $IdOrTwo)->update(['status'=>'paid']);
                 Cart::clear();
                 return redirect('completed');
             }
