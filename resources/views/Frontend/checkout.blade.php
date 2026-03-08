@@ -299,9 +299,9 @@
                                   <p>Chọn địa chỉ cửa hàng</p>
                                   <select class="form-control" name='CarryOrder'>
                                     <option selected>Chọn địa chỉ cửa hàng bạn đến nhận</option>
-                                    <option value="Shale Pizza Ngoc Khanh 107 D3 Ngoc Khanh, Ba Đinh">1. Shale Pizza Ngoc Khanh 107 D3 Ngoc Khanh, Ba Đinh</option>
-                                    <option value="Shale Pizza Nguyen Trai 4 Ngo 332 Nguyen Trai, Thanh Xuan">2. Shale Pizza Nguyen Trai 4 Ngo 332 Nguyen Trai, Thanh Xuan</option>
-                                    <option value="Shale Pizza My Đinh 6 Đong Bat, Cau Giay">3. Shale Pizza My Đinh 6 Đong Bat, Cau Giay</option>
+                                    <option value="Pizza Online Ngoc Khanh 107 D3 Ngoc Khanh, Ba Đinh">1. Pizza Online Ngoc Khanh 107 D3 Ngoc Khanh, Ba Đinh</option>
+                                    <option value="Pizza Online Nguyen Trai 4 Ngo 332 Nguyen Trai, Thanh Xuan">2. Pizza Online Nguyen Trai 4 Ngo 332 Nguyen Trai, Thanh Xuan</option>
+                                    <option value="Pizza Online My Đinh 6 Đong Bat, Cau Giay">3. Pizza Online My Đinh 6 Đong Bat, Cau Giay</option>
                                     <option value="Pizza Express Hoang Mai 52 Kim Đong, Hoang Mai">4. Pizza Express Hoang Mai 52 Kim Đong, Hoang Mai</option>
                                   </select><br><br>
                                   <span id="storeLocationError" style="color: red"></span>
@@ -363,9 +363,9 @@
                                   <p>Chọn địa chỉ cửa hàng</p>
                                   <select class="form-control" name='CarryOrder'>
                                     <option selected>Chọn địa chỉ cửa hàng bạn đến nhận</option>
-                                    <option value="Shale Pizza Ngoc Khanh 107 D3 Ngoc Khanh, Ba Đinh">1. Shale Pizza Ngoc Khanh 107 D3 Ngoc Khanh, Ba Đinh</option>
-                                    <option value="Shale Pizza Nguyen Trai 4 Ngo 332 Nguyen Trai, Thanh Xuan">2. Shale Pizza Nguyen Trai 4 Ngo 332 Nguyen Trai, Thanh Xuan</option>
-                                    <option value="Shale Pizza My Đinh 6 Đong Bat, Cau Giay">3. Shale Pizza My Đinh 6 Đong Bat, Cau Giay</option>
+                                    <option value="Pizza Online Ngoc Khanh 107 D3 Ngoc Khanh, Ba Đinh">1. Pizza Online Ngoc Khanh 107 D3 Ngoc Khanh, Ba Đinh</option>
+                                    <option value="Pizza Online Nguyen Trai 4 Ngo 332 Nguyen Trai, Thanh Xuan">2. Pizza Online Nguyen Trai 4 Ngo 332 Nguyen Trai, Thanh Xuan</option>
+                                    <option value="Pizza Online My Đinh 6 Đong Bat, Cau Giay">3. Pizza Online My Đinh 6 Đong Bat, Cau Giay</option>
                                     <option value="Pizza Express Hoang Mai 52 Kim Đong, Hoang Mai">4. Pizza Express Hoang Mai 52 Kim Đong, Hoang Mai</option>
                                   </select><br><br>
                                   <span id="storeLocationError" style="color: red"></span>

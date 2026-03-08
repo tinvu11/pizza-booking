@@ -98,17 +98,17 @@
   <div class="row contact-section">
   <div class='w-50' style="color: white;position: absolute; right: 0px">
     <div style="height: 480px;margin-left: 0px;background: #033a56">
-   <h3 style="font-weight: bold ;margin-left: 20px;">Shale Store Location</h3>
+   <h3 style="font-weight: bold ;margin-left: 20px;">Pizza Store Location</h3>
    <p style="margin:20px 0px 0px 20px">
     To order Pizza, please to contact with phone number: 024.36.888.777<br>
     To feedback quality of service, plesea to contact with phone number: 0989.139.565<br>
-    Email: shalepizza@gmail.com</p><br>
-    <h3 style="font-weight: bold;margin-left: 20px">Shale Pizza Store System
+    Email: pizzaonline@gmail.com</p><br>
+    <h3 style="font-weight: bold;margin-left: 20px">Pizza Online Store System
     </h3>
     <p  style="margin:20px 0px 0px 20px">
-      1. Shale Pizza Ngoc Khanh 107 D3 Ngoc Khanh, Ba Đinh<br>
-      2. Shale Pizza Nguyen Trai 4 Ngo 332 Nguyen Trai, Thanh Xuan<br>
-      3. Shale Pizza My Đinh 6 Đong Bat, Cau Giay<br>
+      1. Pizza Online Ngoc Khanh 107 D3 Ngoc Khanh, Ba Đinh<br>
+      2. Pizza Online Nguyen Trai 4 Ngo 332 Nguyen Trai, Thanh Xuan<br>
+      3. Pizza Online My Đinh 6 Đong Bat, Cau Giay<br>
       4. Pizza Express Hoang Mai 52 Kim Đong, Hoang Mai<br>
     </p>
    </div>

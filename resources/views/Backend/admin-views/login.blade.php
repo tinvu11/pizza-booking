@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Admin Login - Shale Pizza</title>
+	<title>Admin Login - Pizza Online</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
@@ -57,7 +57,7 @@
 <body>
 	<div class="login-card card">
 		<div class="card-header">
-			<h3>🍕 Shale Pizza</h3>
+			<h3>🍕 Pizza Online</h3>
 			<p>Đăng nhập trang quản trị</p>
 		</div>
 		<div class="card-body">
